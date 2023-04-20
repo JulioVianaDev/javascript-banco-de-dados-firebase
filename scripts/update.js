@@ -2,7 +2,7 @@
 // PATCH MODIFICA APENAS OS ATRIBUTOS ENVIADOS
 // PUT MODIFICA O OBJETO INTEIRO
 
-var editMode = document.getElementById("submit").innerHTML = "Edit Aqui!";
+var editMode = document.getElementById("submit").innerHTML === "Edit Aqui!";
 
 function EnviandoDadosAtuais(id,nameItem,emailItem){
     document.getElementById('email').value = emailItem;
