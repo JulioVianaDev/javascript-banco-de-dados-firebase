@@ -21,6 +21,7 @@ async function PegarDados(){
     `).join('');
   }
   const tableBody = document.getElementById("tbody");
+  // console.log(tableBody)
   tableBody.innerHTML = gerarTableRows(arr);
   // tableBody.innerHTML = "<p>vim html</p>" 
 }
